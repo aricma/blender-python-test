@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "blender-python-test"
+version = "0.1.0"
+description = ""
+authors = ["aricma <adrian@aricma.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+fake-bpy-module-latest = "^20220726"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
